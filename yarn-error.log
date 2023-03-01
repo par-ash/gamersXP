@@ -1,0 +1,123 @@
+Arguments: 
+  /Users/ashishmishra/.nvm/versions/node/v16.14.0/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/ashishmishra/.nvm/versions/node/v16.14.0/bin:/Users/ashishmishra/.rd/bin:/usr/local/opt/openjdk@11/bin:/Users/ashishmishra/.local/share/solana/install/active_release/bin:/Applications/ora/client/instantclient_19_3::/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ashishmishra/oracle.git/web3/Rewarddappweb3auth/node_modules/.bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@adraffy%2fens-normalize: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:141543:19)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "overwolf",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@adraffy/ens-normalize": "^1.8.9",
+      "@apollo/client": "^3.4.16",
+      "@babel/core": "^7.20.12",
+      "@mapbox/node-pre-gyp": "^1.0.10",
+      "@reduxjs/toolkit": "^1.6.2",
+      "@types/jest": "^27.0.2",
+      "@types/node": "^16.10.3",
+      "@types/react-redux": "^7.1.9",
+      "@walletconnect/client": "^1.8.0",
+      "@walletconnect/web3-provider": "^1.8.0",
+      "@web3auth/base": "^4.4.0",
+      "@web3auth/core": "^4.4.0",
+      "@web3auth/ethereum-provider": "^4.4.0",
+      "@web3auth/modal": "^4.5.0",
+      "@web3auth/openlogin-adapter": "^4.5.0",
+      "ajv": "^8.12.0",
+      "antd": "^4.16.13",
+      "axios": "^0.24.0",
+      "babel-loader": "^9.1.2",
+      "craco-less": "^2.0.0",
+      "crypto-browserify": "^3.12.0",
+      "ethers": "^5.7.2",
+      "graphql": "^15.6.1",
+      "i18next": "^21.2.4",
+      "node-polyfill-webpack-plugin": "^2.0.1",
+      "overwolf-hooks": "^3.0.3",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-i18next": "^11.12.0",
+      "react-redux": "^7.2.5",
+      "react-router-dom": "^5.3.0",
+      "react-scripts": "^5.0.1",
+      "sqlite3": "^5.1.4",
+      "swr": "^1.0.1",
+      "typescript": "^4.9.5",
+      "web-vitals": "^2.1.0",
+      "web3": "^1.8.2",
+      "web3modal": "^1.9.4"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "craco  eject",
+      "pack-overwolf": "bash create-production-overwolf-build.sh",
+      "start-remote-devtools": "node remote-dev-redux-devtools",
+      "pack": "npm run build && npm run pack-overwolf"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@craco/craco": "^7.0.0-alpha.3",
+      "@types/react": "^17.0.53",
+      "@types/react-dom": "^17.0.18",
+      "@types/react-router-dom": "^5.3.0",
+      "assert": "^2.0.0",
+      "buffer": "^6.0.3",
+      "eslint-config-react-app": "^7.0.1",
+      "https-browserify": "^1.0.0",
+      "os-browserify": "^0.3.0",
+      "process": "^0.11.10",
+      "react-app-rewired": "^2.2.1",
+      "remotedev-server": "^0.3.1",
+      "stream-browserify": "^3.0.0",
+      "stream-http": "^3.2.0",
+      "url": "^0.11.0"
+    },
+    "overrides": {
+      "craco-less": {
+        "@craco/craco": "$@craco/craco"
+      }
+    },
+    "homepage": "."
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
