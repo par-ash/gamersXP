@@ -1,0 +1,121 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "GamersXP",
+    "version": "1.0.27",
+    "minimum-overwolf-version": "0.120.0",
+    "author": "GamersXP",
+    "icon": "IconMouseOver.png",
+    "icon_gray": "IconMouseNormal.png",
+    "launcher_icon": "gamersxp_icon.ico",
+    "window_icon": "TaskbarIcon.png",
+    "description": "Join GamersXP and start earning Tokens, by playing the games you love."
+  },
+  "permissions": [
+    "Extensions",
+    "Streaming",
+    "Profile",
+    "GameInfo",
+    "DesktopStreaming"
+  ],
+  "force_browser": "user",
+  "data": {
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [21216, 10906, 10798, 7764]
+    },
+    "launch_events": [
+      {
+        "event": "GameLaunch",
+        "event_data": {
+          "game_ids": [21216, 10906, 10798, 7764]
+        },
+        "start_minimized": true
+      }
+    ],
+    "game_events": [21216, 10906, 10798, 7764],
+    "start_window": "background",
+    "windows": {
+      "background": {
+        "file": "Files/index.html",
+        "background_optimization": false,
+        "popup_blocker": false,
+        "is_background_page": true
+      },
+      "desktop": {
+        "file": "Files/index.html",
+        "native_window": true,
+        "transparent": true,
+        "resizable": false,
+        "popup_blocker": false,
+        "size": {
+          "width": 1200,
+          "height": 700
+        },
+        "min_size": {
+          "width": 1200,
+          "height": 700
+        },
+        "max_size": {
+          "width": 1200,
+          "height": 700
+        },
+        "desktop_only": true,
+        "debug_url": "http://localhost:3000"
+      },
+      "login": {
+        "file": "login.html",
+        "transparent": false,
+        "resizable": true,
+        "show_in_taskbar": true,
+        "desktop_only": true,
+        "popup_blocker": false,
+        "size": {
+          "width": 600,
+          "height": 600
+        }
+      }
+    },
+    "mute": true,
+    "developer": {
+      "enable_auto_refresh": true,
+      "reload_delay": 1000,
+      "filter": "*.*"
+    },
+    "externally_connectable": {
+      "matches": [
+        "http://*.overwolf.com",
+        "https://*.overwolf.com",
+        "http://*.google.com",
+        "https://*.google.com",
+        "https://azf0hqsydb.execute-api.us-east-1.amazonaws.com/default/overwolfRedirectProxy",
+        "wss://*.infura.io",
+        "https://*.infura.io",
+        "wss://bridge.walletconnect.org/*",
+        "https://bridge.walletconnect.org",
+        "https://bridge.walletconnect.org/*",
+        "https://polygon.bridge.walletconnect.org",
+        "https://qag9g1qf83.execute-api.eu-central-1.amazonaws.com/*",
+        "https://gateway.thegraph.com/api/*",
+        "https://api.thegraph.com/subgraphs/name/ftschris/gamersxpmainnet",
+        "https://app.openlogin.com/*",
+        "https://app.openlogin.com",
+        "https://*.openlogin.com",
+        "https://*.openlogin.com/*",
+        "https://web3auth.io/*",
+        "https://*.web3auth.io/*",
+        "https://web3auth.io",
+        "https://*.web3auth.io",
+        "https://app.tor.us/*",
+        "https://api.developer.tor.us/*",
+        "https://api.tor.us/*",
+        "https://images.web3auth.io/*",
+        "https://broadcast-server.tor.us/*",
+        "https://overwolf-integration.auth.us-east-1.amazoncognito.com/*",
+        "https://torus-node.ens.domains/*",
+        "https://cognito-idp.us-east-1.amazonaws.com/*"
+      ]
+    }
+  }
+}

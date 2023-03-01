@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sign In / Log In</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        const fragment = new URLSearchParams(window.location.search);
+        const code = fragment.get("code");
+        if (code) localStorage.setItem("AWS-Cognito-Code", code);
+        setTimeout(window.close, 250);
+      })();
+    </script>
+  </body>
+</html>
