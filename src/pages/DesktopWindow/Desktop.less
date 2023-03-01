@@ -1,0 +1,66 @@
+@import '~antd/dist/antd.dark.less';
+
+html,
+body {
+  overflow: hidden;
+}
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #b8e600;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b8e600;
+  border-radius: 20px;
+  border: 3px solid #131313;
+}
+.ant-btn-primary {
+  background: linear-gradient(90deg, #b8e600, #ccff00);
+}
+
+#schemes-card {
+  background-color: #141414;
+}
+
+#schemes-card:hover {
+  background: linear-gradient(317deg, #141414, #141414, #ccff00);
+  border: 1px solid #ccff00;
+}
+.ant-card-actions {
+  background: transparent;
+}
+
+.ant-menu-item-selected {
+  background-color: #ccff00 !important;
+}
+
+.ant-spin-dot-item {
+  background-color: #ccff00;
+}
+
+.ant-spin-text {
+  color: #ccff00;
+}
+
+.ant-alert-message {
+    text-align: center;
+}
+
+.ant-btn-round.ant-btn-lg {
+  color: #000000;
+}
+
+.ant-btn.ant-btn-primary {
+  color: #000000;
+}
+//add comment here for changes in the file

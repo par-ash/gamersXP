@@ -1,0 +1,25 @@
+export const pubg: PUBG.IJSON = {
+  id: 10906,
+  title: 'PlayerUnkown s Battlegrounds',
+  timestamp: null,
+  features: [
+    'kill',
+    'revived',
+    'death',
+    'killer',
+    'match',
+    'match_info',
+    'rank',
+    'counters',
+    'location',
+    'me',
+    'team',
+    'phase',
+    'map',
+    'roster',
+  ],
+  data: {
+    events: [],
+    infos: [],
+  },
+}

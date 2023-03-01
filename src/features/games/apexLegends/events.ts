@@ -1,0 +1,25 @@
+export const apexLegends: ApexLegends.IJSON = {
+  id: 21566,
+  title: 'Apex Legends',
+  timestamp: null,
+  features: [
+    'me',
+    'team',
+    'kill',
+    'damage',
+    'death',
+    'revive',
+    'match_state',
+    'match_info',
+    'inventory',
+    'location',
+    'match_summary',
+    'roster',
+    'rank',
+    'kill_feed',
+  ],
+  data: {
+    events: [],
+    infos: [],
+  },
+}

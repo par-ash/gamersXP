@@ -1,0 +1,25 @@
+export const fortnite: Fortnite.IJSON = {
+  id: 21216,
+  title: 'Fortnite',
+  timestamp: null,
+  features: [
+    'kill',
+    'killed',
+    'killer',
+    'revived',
+    'death',
+    'match',
+    'match_info',
+    'rank',
+    'me',
+    'phase',
+    'location',
+    'team',
+    'items',
+    'counters',
+  ],
+  data: {
+    events: [],
+    infos: [],
+  },
+}

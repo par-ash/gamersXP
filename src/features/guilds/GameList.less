@@ -1,0 +1,164 @@
+@gamerxpLime: #b8e600;
+
+.game-container {
+  height: 310px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.game-card {
+  opacity: 0.8;
+  background-size: 120% 120%;
+  cursor: pointer;
+  height: 46px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0.5rem;
+  border: 1px solid #141414;
+}
+
+.game-card-active {
+  border: 1px solid @gamerxpLime;
+  opacity: 1;
+  transition: opacity 0.3s 0.04s, border 0.5s 0.04s, background-image 0.6s 0.1s;
+}
+
+.game-logo {
+  filter: brightness(0) invert(1) opacity(1);
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 0.5rem;
+  padding: 0.2rem;
+  margin-top: 0.4rem;
+}
+
+.game-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.game-card-fortnite-active-bg {
+  background-image: linear-gradient(
+      90deg,
+      @gamerxpLime 25.64%,
+      rgba(4, 7, 23, 0) 75.75%
+    ),
+    url('../../assets/images/bg-fortnite.png');
+}
+.game-card-valorant-active-bg {
+  background-image: linear-gradient(
+      90deg,
+      @gamerxpLime 25.64%,
+      rgba(4, 7, 23, 0) 75.75%
+    ),
+    url('../../assets/images/bg-valorant.png');
+}
+.game-card-pubg-active-bg {
+  background-image: linear-gradient(
+      90deg,
+      @gamerxpLime 25.64%,
+      rgba(4, 7, 23, 0) 75.75%
+    ),
+    url('../../assets/images/bg-pubg.png');
+}
+.game-card-csgo-active-bg {
+  background-image: linear-gradient(
+      90deg,
+      @gamerxpLime 25.64%,
+      rgba(4, 7, 23, 0) 75.75%
+    ),
+    url('../../assets/images/bg-CSGO.png');
+}
+.game-card-rocket-league-active-bg {
+  background-image: linear-gradient(
+      90deg,
+      @gamerxpLime 25.64%,
+      rgba(4, 7, 23, 0) 75.75%
+    ),
+    url('../../assets/images/bg-rocket-league.png');
+}
+
+
+// Fortnite Card Game Start
+.game-card-fortnite {
+  background-image: url('../../assets/images/bg-fortnite.png');
+  .game-card;
+}
+
+.game-card-active-fortnite {
+  .game-card-active;
+  .game-card-fortnite-active-bg;
+}
+.game-card-fortnite:hover {
+  .game-card-active-fortnite;
+  .game-card-fortnite-active-bg;
+}
+// Fortnite Card Game End
+
+// Valorant Card Game Start
+.game-card-valorant {
+  background-image: url('../../assets/images/bg-valorant.png');
+  .game-card;
+}
+
+.game-card-active-valorant {
+  .game-card-active;
+  .game-card-valorant-active-bg;
+}
+.game-card-valorant:hover {
+  .game-card-active-valorant;
+  .game-card-valorant-active-bg;
+}
+// Valorant Card Game End
+
+// PUBG Card Game Start
+.game-card-pubg {
+  background-image: url('../../assets/images/bg-pubg.png');
+  .game-card;
+}
+
+.game-card-active-pubg {
+  .game-card-active;
+  .game-card-pubg-active-bg;
+}
+.game-card-pubg:hover {
+  .game-card-active-pubg;
+  .game-card-pubg-active-bg;
+}
+// PUBG Card Game End
+
+
+// CS:GO Card Game Start
+.game-card-csgo {
+  background-image: url('../../assets/images/bg-CSGO.png');
+  .game-card;
+  img {
+    filter: brightness(1) opacity(1) invert(1);
+  }
+}
+
+.game-card-active-csgo {
+  .game-card-active;
+  .game-card-csgo-active-bg;
+}
+.game-card-csgo:hover {
+  .game-card-active-csgo;
+  .game-card-csgo-active-bg;
+  
+}
+// CS:GO Card Game End
+
+// Rocket League Card Game Start
+.game-card-rocket-league {
+  background-image: url('../../assets/images/bg-rocket-league.png');
+  .game-card;
+}
+
+.game-card-active-rocket-league {
+  .game-card-active;
+  .game-card-rocket-league-active-bg;
+}
+.game-card-rocket-league:hover {
+  .game-card-active-rocket-league;
+  .game-card-rocket-league-active-bg;
+}
+// Rocket League Card Game End

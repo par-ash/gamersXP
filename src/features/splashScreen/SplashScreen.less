@@ -1,0 +1,58 @@
+.splash-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-container {
+  margin: 4px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-logo {
+  width: 100px;
+  filter: grayscale(100%);
+  animation: ease-in-out infinite alternate;
+  animation-name: logo;
+  animation-duration: 1.2s;
+}
+
+.splash-screen .loading-dot {
+  font-size: 100px;
+  margin-top: -80px;
+  position: relative;
+  animation: ease-in-out infinite alternate;
+  animation-name: run;
+  animation-duration: 1.2s;
+}
+
+@keyframes logo {
+  0% {
+    filter: grayscale(100);
+  }
+  50% {
+    filter: grayscale(50%);
+  }
+  100% {
+    filter: grayscale(0);
+  }
+}
+
+@keyframes run {
+  0% {
+    left: -90px;
+    color: #eee;
+  }
+  50% {
+    color: #666;
+  }
+  100% {
+    left: 90px;
+    color: #eee;
+  }
+}

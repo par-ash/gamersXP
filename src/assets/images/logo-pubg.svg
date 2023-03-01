@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>lol-logo-svg</title>
+	<defs>
+		<image  width="54" height="54" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAMAAAC7m5rvAAAAAXNSR0IB2cksfwAAAZVQTFRF////////5OTkYWFhKCgoaGho5+fnysrKFRUVAAAAHh4ezs7OGRkZOzs7FxcXampq+vr6ZGRk6urqs7OzExMTbGxs/v7++Pj49fX19vb2/f39+fn5ZmZmGhoatLS06OjoYGBgHBwcAwMD39/fSkpKODg4RUVFy8vLiYmJ1dXV8/Pzmpqam5ubk5OTNjY2Nzc3rq6ui4uLRERE0NDQBAQERkZG1tbWFhYWU1NTj4+PpKSk5ubmJycndnZ2Hx8f2NjYXFxcICAgDg4OMDAwGxsbEREREBAQBgYGGBgYBwcHTExMDw8PoqKiR0dH8PDwAgICvLy8d3d3Pj4+SEhIe3t7fn5+dHR0qqqq/Pz8AQEBPDw8JiYmxsbGbW1tbm5uEhISCAgIWlpanJycgICAUVFROTk5CQkJ5eXl19fXDQ0Na2tr2trawMDAlZWV2dnZhYWFBQUFqampQEBACgoK7u7u3d3dHR0dZWVl4+PjY2NjVFRUg4ODVlZWVVVVsbGxrKysV1dXaWlpLCwscHBw6+vrx8fHKysrsM/2WQAAAId0Uk5T/wCw////gP///////////wD/UP///wAAAAAAAP///3D///+w////////AP////////////////////8A////////////////////////AP///////////wD//////////////////1D///////////////8A0P//cP//////////////QP//KhJoIgAAAcNJREFUeJzt1edPwkAYBnBOXK8iUhUBUXECioriqAPEBeJA3Ip7D9wL98D1d3u9Vm2rxNMPRhOeL33T5JfmnvauCsUvB307MRZj1CxOGU+dhMQ3lpQM1ElJFTNVGlXUMpauoQojYhmZWaBFKFvHRSNaukaPY8BDjgEPRjzkQl6+SWAFhUUcKy4pxTGnIovVWlZus1agyiocezXKqbHjwVHLsTpVgcDq8Uoxa2DJmhtRE0BzixPikYvcaEVuFRnaOAZQIjCmvUhgHZ0ADgnr8oAX1Xqg29cDvRzrY/pFlfDMPyBjgcEhng2jEZ5Jm/yajfrHfsJIqNg4BCa0Aps0GIyfsrIPzAHBqWmBzczO2T5llUGYn5KwBdL7ImFLEKWSZf5bXXlnqwC+LFhb59jGZhRm8UJKKOTaklSyvQOwSypho70ANTj0eh36PvOTlv8k2zP3yFkfW8d/yqyHZ5v2fZ51O7WyjfPKDvg3cShsnKPjkzAZTqUbRxkmG+fs/OKSsOzRC5xFN2q+wtfrG4Ru7/AQOSNPu38Q2GM+ORRokgvhJ52okoiRKueyJn2rVJEfeD85XuOYZ+qETP/rRxVj/5H9Yl4AmKms8pRTg0kAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer 1" href="#img1" x="-2" y="-2" />
+</svg>
